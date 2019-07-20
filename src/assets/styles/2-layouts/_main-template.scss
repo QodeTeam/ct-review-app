@@ -1,0 +1,17 @@
+$header-height: 40px;
+
+.main-template {
+  height: 100%;
+  .app-header {
+    height: $header-height;
+    background-color: $light-primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 $standard-padding * 2;
+  }
+  main {
+    height: calc(100% - #{$header-height});
+    overflow-y: auto;
+  }
+}

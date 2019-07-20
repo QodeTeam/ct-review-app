@@ -1,0 +1,9 @@
+.add-review {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .add-review-form {
+    max-width: 500px;
+  }
+}
